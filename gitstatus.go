@@ -9,6 +9,7 @@ import (
 )
 
 const (
+	version = "1.0.0"
 	statusCommand = "git status --porcelain=v2 -z --branch --untracked-files=all"
 	nilCharacter  = "\x00"
 )
